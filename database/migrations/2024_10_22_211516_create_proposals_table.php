@@ -18,6 +18,8 @@ return new class extends Migration
             $table->unsignedSmallInteger('hours');
             $table->foreignIdFor(Project::class)->constrained();
             $table->timestamps();
+
+
         });
     }
 
