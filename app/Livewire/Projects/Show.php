@@ -2,12 +2,19 @@
 
 namespace App\Livewire\Projects;
 
+use App\Models\Project;
 use Livewire\Component;
 
-class Sho extends Component
-{
-    public function render()
+class Show extends Component
+
     {
-        return view('livewire.projects.sho');
+        public Project $project;
+
+        public function render()
+
+        {
+
+        return view('livewire.projects.show');
+
+        }
     }
-}

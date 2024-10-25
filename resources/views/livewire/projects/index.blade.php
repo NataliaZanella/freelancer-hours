@@ -1,7 +1,15 @@
-<x-layouts.app>
+<div>
 
-    <a href="{[ route('projects.show', 1) ]}">
-        FIRST PROJECT
-    </a>
+    @foreach ($this->projects as $project )
+    <li>
 
-</x-layouts.app>
+        <a href="{{ route('projects.show' , $project) }}">
+
+            {{ $project->id }}, {{ $project->title }}
+
+        </a>
+
+    </li>
+
+    @endforeach
+</div>

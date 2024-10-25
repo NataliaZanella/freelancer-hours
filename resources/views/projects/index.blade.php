@@ -4,4 +4,6 @@
         FIRST PROJECT
     </a>
 
+    <livewire:projects.index />
+
 </x-layouts.app>

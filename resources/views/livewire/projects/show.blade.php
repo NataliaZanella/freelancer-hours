@@ -1,5 +1,8 @@
 <div>
 
-    Componenente limewire projects.show
+    componente livewire projects.show
+
+
+    @dump($project)
 
 </div>

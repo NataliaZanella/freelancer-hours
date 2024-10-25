@@ -1,9 +1,9 @@
 <?php
 
-use App\Livewire\Projects\Sho;
+use App\Livewire\Projects\Show;
 use Livewire\Livewire;
 
 it('renders successfully', function () {
-    Livewire::test(Sho::class)
-        ->assertStatus(200);
+    Livewire::test(Show::class)
+        ->assertOk();
 });
